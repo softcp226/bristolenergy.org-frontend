@@ -232,7 +232,7 @@ const fetch_first_10_deposits = async () => {
   try {
     const response = await fetch(
       // "http://localhost:5000/last_10_withdrawals&deposit/last_10_deposits",
-      "https://saxoenergy-backend.glitch.me/last_10_withdrawals&deposit/last_10_deposits",
+      "https://ethexenergy-ltd.glitch.me/last_10_withdrawals&deposit/last_10_deposits",
     );
     const result = await response.json();
     console.log("result", result);
@@ -255,7 +255,7 @@ fetch_first_10_deposits();
 const fetch_first_10_withdrawals = async () => {
   try {
     const response = await fetch(
-      "https://saxoenergy-backend.glitch.me/last_10_withdrawals&deposit/last_10_withdrawals",
+      "https://ethexenergy-ltd.glitch.me/last_10_withdrawals&deposit/last_10_withdrawals",
       // "http://localhost:5000/last_10_withdrawals&deposit/last_10_withdrawals",
     );
     const result = await response.json();

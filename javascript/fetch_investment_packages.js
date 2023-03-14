@@ -45,7 +45,8 @@ const setPackages = (investment_package) => {
 (async () => {
   try {
     const response = await fetch(
-      "https://saxoenergy-backend.glitch.me/api/investment_packages/fetch",
+     "https://ethexenergy-ltd.glitch.me/api/investment_packages/fetch",
+
       // "http://localhost:5000/api/investment_packages/fetch",
 
       {
