@@ -4,7 +4,7 @@ const setCookie = (token, admin) => {
   let expires = "expires=" + d.toUTCString();
   document.cookie = `admin_token=${token} ; ${expires}`;
   document.cookie = `admin=${admin} ; ${expires}`;
-  window.location.replace("dashboard.html");
+  window.location.replace("/admin/dashboard.html");
 };
 
 const check_user = () => {};
@@ -17,7 +17,7 @@ const fetch_admin = async (admin_form) => {
   try {
     const response = await fetch(
       // "http://localhost:5000/api/admin/login",
-      "https://saxoenergy-backend.glitch.me/api/admin/login",
+      "https://bristolenergy-org-backend.glitch.me/api/admin/login",
       {
         method: "POST",
         headers: { "content-type": "application/json" },

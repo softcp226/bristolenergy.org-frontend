@@ -26,7 +26,7 @@ const fetch_edit_user = async (user_data) => {
   try {
     document.querySelector("#save").value = "Proccessing...";
     const response = await fetch(
-      "https://saxoenergy-backend.glitch.me/api/admin/user/edit",
+      "https://bristolenergy-org-backend.glitch.me/api/admin/user/edit",
       {
         method: "POST",
         headers: { "content-type": "application/json" },
@@ -73,7 +73,7 @@ document.querySelector("#save").onclick = () => {
   user = get_userID();
   try {
     const response = await fetch(
-      "https://saxoenergy-backend.glitch.me/api/admin/fetch_users/single_user",
+      "https://bristolenergy-org-backend.glitch.me/api/admin/fetch_users/single_user",
       {
         method: "POST",
         headers: { "content-type": "application/json" },

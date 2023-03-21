@@ -23,7 +23,7 @@ handle_delete_package = async (btn, package_id) => {
 
   try {
     const response = await fetch(
-      "https://saxoenergy-backend.glitch.me/api/admin/investment_packages/delete",
+      "https://bristolenergy-org-backend.glitch.me/api/admin/investment_packages/delete",
 
       // "http://localhost:5000/api/admin/investment_packages/delete",
 
@@ -189,7 +189,7 @@ const create_element = (data) => {
 
   try {
     const response = await fetch(
-      "https://saxoenergy-backend.glitch.me/api/admin/investment_packages",
+      "https://bristolenergy-org-backend.glitch.me/api/admin/investment_packages",
       // "http://localhost:5000/api/admin/investment_packages",
 
       {

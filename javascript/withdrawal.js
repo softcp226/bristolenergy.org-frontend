@@ -19,7 +19,7 @@ const handle_withdrawal = async (form) => {
   try {
     document.querySelector("#submit").innerHTML = "proccessing...";
     const response = await fetch(
-      "https://saxoenergy-backend.glitch.me/api/user/withdraw",
+      "https://bristolenergy-org-backend.glitch.me/api/user/withdraw",
       // "http://localhost:5000/api/user/withdraw",
 
       {

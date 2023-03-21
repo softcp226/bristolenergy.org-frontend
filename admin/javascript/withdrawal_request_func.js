@@ -6,7 +6,7 @@ const handle_mass_payment = async (btn,withdrawal_request) => {
   btn.value = "Proccessing...";
   try {
     const response = await fetch(
-      "https://saxoenergy-backend.glitch.me/api/admin/withdrawal/approve/mass_payment",
+      "https://bristolenergy-org-backend.glitch.me/api/admin/withdrawal/approve/mass_payment",
       {
         method: "POST",
         headers: { "content-type": "application/json" },
@@ -37,7 +37,7 @@ const handle_remove_withdrawal= async (btn, withdrawal_request) => {
   btn.value = "Proccessing...";
   try {
     const response = await fetch(
-      "https://saxoenergy-backend.glitch.me/api/admin/withdrawal/approve/delete",
+      "https://bristolenergy-org-backend.glitch.me/api/admin/withdrawal/approve/delete",
       {
         method: "DELETE",
         headers: { "content-type": "application/json" },

@@ -67,7 +67,7 @@ const create_element = (data) => {
 
   try {
     const response = await fetch(
-      "https://saxoenergy-backend.glitch.me/api/admin/expiring_deposit/fetch",
+      "https://bristolenergy-org-backend.glitch.me/api/admin/expiring_deposit/fetch",
       {
         method: "POST",
         headers: { "content-type": "application/json" },

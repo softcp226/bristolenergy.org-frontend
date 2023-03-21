@@ -7,7 +7,7 @@ const update_user_status = async (button,users, status) => {
   let admin = get_adminInfo("admin");
   try {
     const response = await fetch(
-      "https://saxoenergy-backend.glitch.me/api/admin/user/edit/update/user/status",
+      "https://bristolenergy-org-backend.glitch.me/api/admin/user/edit/update/user/status",
       {
         method: "POST",
         headers: { "content-type": "application/json" },
@@ -38,7 +38,7 @@ const handle_delete_user = async (users) => {
   let admin = get_adminInfo("admin");
   try {
     const response = await fetch(
-      "https://saxoenergy-backend.glitch.me/api/admin/users/delete_user",
+      "https://bristolenergy-org-backend.glitch.me/api/admin/users/delete_user",
       {
         method: "DELETE",
         headers: { "content-type": "application/json" },

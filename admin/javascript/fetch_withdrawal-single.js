@@ -45,7 +45,7 @@ const confirm_payment = async () => {
   document.querySelector("#confirm_payment").value = "Proccessing...";
   try {
     const response = await fetch(
-      "https://saxoenergy-backend.glitch.me/api/admin/withdrawal/approve",
+      "https://bristolenergy-org-backend.glitch.me/api/admin/withdrawal/approve",
       {
         method: "POST",
         headers: { "content-type": "application/json" },
@@ -88,7 +88,7 @@ let token = get_adminInfo("admin_token");
   let withdrawal_request = getWithdrawal_request();
   try {
     const response = await fetch(
-      "https://saxoenergy-backend.glitch.me/api/admin/withdrawal/fetch/single",
+      "https://bristolenergy-org-backend.glitch.me/api/admin/withdrawal/fetch/single",
       {
         method: "POST",
         headers: { "content-type": "application/json" },

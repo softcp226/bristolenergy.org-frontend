@@ -135,7 +135,7 @@ let skip_count = 0;
 
   try {
     const response = await fetch(
-      "https://saxoenergy-backend.glitch.me/api/admin/withdrawal/fetch",
+      "https://bristolenergy-org-backend.glitch.me/api/admin/withdrawal/fetch",
       {
         method: "POST",
         headers: { "content-type": "application/json" },

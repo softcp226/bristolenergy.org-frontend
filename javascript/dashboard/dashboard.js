@@ -26,7 +26,7 @@ const getCookie = (cname) => {
   const token = getCookie("token");
   try {
     const response = await fetch(
-      "https://saxoenergy-backend.glitch.me/api/user/find",
+      "https://bristolenergy-org-backend.glitch.me/api/user/find",
       // "http://localhost:5000/api/user/find",
 
       {

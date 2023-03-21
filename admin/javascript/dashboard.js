@@ -53,7 +53,7 @@ select_element("pending_deposit", `${data.pending_deposit.length}`);
 
   try {
     const response = await fetch(
-      "https://saxoenergy-backend.glitch.me/api/admin/dashboard/details",
+      "https://bristolenergy-org-backend.glitch.me/api/admin/dashboard/details",
       {
         method: "POST",
         headers: { "content-type": "application/json" },

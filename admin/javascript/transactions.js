@@ -69,7 +69,7 @@ construct_row_number = () => (row_number == 1 ? ++row_number : --row_number);
 
   try {
     const response = await fetch(
-      "https://saxoenergy-backend.glitch.me/api/admin/transactions/fetch",
+      "https://bristolenergy-org-backend.glitch.me/api/admin/transactions/fetch",
       {
         method: "POST",
         headers: { "content-type": "application/json" },

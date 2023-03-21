@@ -79,7 +79,7 @@ container_div.style.visibility="visible"
 (async () => {
   try {
     const response = await fetch(
-       "https://ethexenergy-ltd.glitch.me/api/investment_packages/fetch",
+      "https://bristolenergy-org-backend.glitch.me/api/investment_packages/fetch",
 
       // "http://localhost:5000/api/investment_packages/fetch",
 

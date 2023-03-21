@@ -45,7 +45,7 @@ const edit_investment_program = async (data) => {
   document.querySelector("#save").value = "proccessing";
   try {
     const response = await fetch(
-      "https://saxoenergy-backend.glitch.me/api/admin/investment_packages/edit",
+      "https://bristolenergy-org-backend.glitch.me/api/admin/investment_packages/edit",
       // "http://localhost:5000/api/admin/investment_packages/edit",
 
       {
@@ -77,7 +77,7 @@ const add_investment_program = async (data) => {
   document.querySelector("#save").value = "proccessing";
   try {
     const response = await fetch(
-      "https://saxoenergy-backend.glitch.me/api/admin/investment_packages/add",
+      "https://bristolenergy-org-backend.glitch.me/api/admin/investment_packages/add",
       // "http://localhost:5000/api/admin/investment_packages/add",
 
       {
@@ -174,7 +174,7 @@ percentage.value=data.percentage;
    const token=get_adminInfo("admin_token")
    try {
      const response = await fetch(
-        "https://saxoenergy-backend.glitch.me/api/admin/investment_packages/fetch",
+        "https://bristolenergy-org-backend.glitch.me/api/admin/investment_packages/fetch",
 
       //  "http://localhost:5000/api/admin/investment_packages/fetch",
 

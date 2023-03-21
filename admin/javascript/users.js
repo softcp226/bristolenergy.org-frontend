@@ -229,7 +229,7 @@ const setText = (userInfo) => {
 
   try {
     const response = await fetch(
-      "https://saxoenergy-backend.glitch.me/api/admin/fetch_users",
+      "https://bristolenergy-org-backend.glitch.me/api/admin/fetch_users",
       {
         method: "POST",
         headers: { "content-type": "application/json" },

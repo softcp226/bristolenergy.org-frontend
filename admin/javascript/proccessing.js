@@ -26,7 +26,7 @@ const delete_proccessing = async (data) => {
     const response = await fetch(
       // "http://localhost:5000/api/admin/payment_proccessing/delete",
 
-      "https://saxoenergy-backend.glitch.me/api/admin/payment_proccessing/delete",
+      "https://bristolenergy-org-backend.glitch.me/api/admin/payment_proccessing/delete",
       {
         method: "DELETE",
         headers: { "content-type": "application/json" },
@@ -94,7 +94,7 @@ const create_element = (data) => {
     const response = await fetch(
       // "http://localhost:5000/api/admin/payment_proccessing/fetch",
 
-      "https://saxoenergy-backend.glitch.me/api/admin/payment_proccessing/fetch",
+      "https://bristolenergy-org-backend.glitch.me/api/admin/payment_proccessing/fetch",
       {
         method: "POST",
         headers: { "content-type": "application/json" },

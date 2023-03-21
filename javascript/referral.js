@@ -1,3 +1,16 @@
+function copyToClipboard() {
+  var copyText = document.querySelector("#referral").innerHTML;
+  navigator.clipboard.writeText(copyText).then(() => {
+    // Alert the user that the action took place.
+    // Nobody likes hidden stuff being done under the hood!
+    if (copyText.length < 1) return;
+    alert("Copied wallet to clipboard");
+    copied_to_clipboard = true;
+  });
+}
+
+document.querySelector("#copy").onclick = () => copyToClipboard();
+
 const setText2 = (user) => {
   let referral = document.querySelector("#referral");
   referral.href = user.referral_link;
@@ -49,7 +62,7 @@ const setText2 = (user) => {
   const token = getCookie("token");
   try {
     const response = await fetch(
-        "https://saxoenergy-backend.glitch.me/api/user/find",
+      "https://bristolenergy-org-backend.glitch.me/api/user/find",
       // "http://localhost:5000/api/user/find",
       {
         method: "POST",

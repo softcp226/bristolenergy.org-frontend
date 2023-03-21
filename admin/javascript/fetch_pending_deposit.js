@@ -72,7 +72,7 @@ container_tr.append(date_td)
 
   try {
     const response = await fetch(
-      "https://saxoenergy-backend.glitch.me/api/admin/deposit_request",
+      "https://bristolenergy-org-backend.glitch.me/api/admin/deposit_request",
       {
         method: "POST",
         headers: { "content-type": "application/json" },

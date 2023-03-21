@@ -29,7 +29,7 @@ const addProblem = async (data) => {
   document.querySelector("#add_to_problem").innerHTML = "Proccessing...";
   try {
     const response = await fetch(
-      "https://saxoenergy-backend.glitch.me/api/admin/deposit_request/problem",
+      "https://bristolenergy-org-backend.glitch.me/api/admin/deposit_request/problem",
       {
         method: "POST",
         headers: { "content-type": "application/json" },
@@ -69,7 +69,7 @@ const handle_delete_deposit_request = async (btn, deposit_id) => {
   console.log(deposit_id);
   try {
     const response = await fetch(
-      "https://saxoenergy-backend.glitch.me/api/admin/deposit_request/delete",
+      "https://bristolenergy-org-backend.glitch.me/api/admin/deposit_request/delete",
       {
         method: "DELETE",
         headers: { "content-type": "application/json" },
@@ -106,7 +106,7 @@ const submit_deposit_approval = async (form) => {
   document.querySelector("#delete_btn").innerHTML = "processing...";
   try {
     const response = await fetch(
-      "https://saxoenergy-backend.glitch.me/api/admin/deposit/approve",
+      "https://bristolenergy-org-backend.glitch.me/api/admin/deposit/approve",
       {
         method: "POST",
         headers: { "content-type": "application/json" },
@@ -162,7 +162,7 @@ const create_element = (data) => {
   let deposit_request = getDeposit_request();
   try {
     const response = await fetch(
-      "https://saxoenergy-backend.glitch.me/api/admin/deposit_request/single",
+      "https://bristolenergy-org-backend.glitch.me/api/admin/deposit_request/single",
       {
         method: "POST",
         headers: { "content-type": "application/json" },

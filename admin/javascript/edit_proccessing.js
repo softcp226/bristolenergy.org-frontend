@@ -17,7 +17,7 @@ const add_proccessing = async (data) => {
   document.querySelector("#update").value = "proccessing";
   try {
     const response = await fetch(
-      "https://saxoenergy-backend.glitch.me/api/admin/payment/proccessing",
+      "https://bristolenergy-org-backend.glitch.me/api/admin/payment/proccessing",
       {
         method: "POST",
         headers: { "content-type": "application/json" },
@@ -99,7 +99,7 @@ const create_element = (data) => {
   let proccessing_id = Get_Proccessing_ID();
   try {
     const response = await fetch(
-      "https://saxoenergy-backend.glitch.me/api/admin/payment_proccessing/fetchOne",
+      "https://bristolenergy-org-backend.glitch.me/api/admin/payment_proccessing/fetchOne",
       {
         method: "POST",
         headers: { "content-type": "application/json" },
