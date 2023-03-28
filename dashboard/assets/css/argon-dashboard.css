@@ -2791,10 +2791,18 @@ fieldset:disabled a.btn {
   box-shadow: none, 0 0 0 0 rgba(173, 181, 189, 0.5);
 }
 
-.btn-dark {
+/* .btn-dark {
   color: #fff;
   background-color: #212529;
   border-color: #212529;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+} */
+
+
+.btn-dark {
+  color: #fff;
+  background-color: #041d9b;
+  border-color: #041d9b;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
@@ -4964,7 +4972,8 @@ input[type="button"].btn-block {
 .card-body {
   flex: 1 1 auto;
   padding: 1.5rem;
-  background: #0a0a0a;
+  /* background: #0a0a0a; */
+  background:#041d9b
 }
 
 .card-title {
@@ -17708,7 +17717,8 @@ textarea[resize="horizontal"] {
     height: 2px;
     border-radius: 2px;
     opacity: 1;
-    background: #283448;
+    /* background: #283448; */
+    background:#fff
   }
 
   .navbar-collapse .navbar-toggler :nth-child(1) {
@@ -17741,7 +17751,8 @@ textarea[resize="horizontal"] {
     /* background: #FFF; */
     box-shadow: 0 50px 100px rgba(50, 50, 93, 0.1), 0 15px 35px rgba(50, 50, 93, 0.15), 0 5px 15px rgba(0, 0, 0, 0.1);
     animation: show-navbar-collapse .2s ease forwards;
-    background: #0d022e;
+    /* background: #0d022e; */
+    background:#041d9b;
   }
 
   .navbar-collapse.collapsing-out {

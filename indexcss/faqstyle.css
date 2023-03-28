@@ -1,0 +1,47 @@
+
+.faq-bg {
+	
+	background: transparent;
+    background-size: cover;
+    background-attachment: fixed;
+	padding:50px 0px 50px 0px;
+	font-family: 'Montserrat', sans-serif;}
+
+.faq_accordian{ width:100%;}
+.faq_accordian .accordion-toggle{ cursor:pointer; margin:10px 0 0 0;}
+.faq_accordian .accordion-toggle.active{     background: url(images/accordian_arrow_up.png) no-repeat center right, linear-gradient(90deg, #041d9b 0%,#313f97 72%);
+    color: #f1f1f1;
+		}
+
+.faq_accordian .accordion h4 {
+    background: url(images/accordian_arrow_down.png) no-repeat center right, linear-gradient(90deg, #041d9b 0%,#313f97 72%);
+
+    font-size: 15px;
+    color: #ffffff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    width: 100%;
+    font-weight: normal;
+    padding: 15px 45px 15px 10px;
+}
+.faq_accordian .accordion-content{display: none;} 
+.faq_accordian .accordion-content p {
+    width: 100%;
+    display: inline-block;
+    font-size: 14px;
+    color: #000;
+    line-height: 26px;
+    background: #ffffff;
+    border:1px solid #041d9b;
+    padding: 20px 30px;}
+.faq_accordian .accordion-content p a 
+{
+	color:#57c854;
+}
+.faq_accordian .accordion-content p a:hover 
+{
+	color:#fff;
+}
+.faq_accordian .accordion .open {display: block;}
