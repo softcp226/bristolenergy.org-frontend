@@ -6,6 +6,8 @@ const usdt_icon =
   "https://icons.iconarchive.com/icons/cjdowner/cryptocurrency-flat/256/Tether-USDT-icon.png";
 const perfect_money_icon =
   "https://play-lh.googleusercontent.com/A0-25O4FaUEAWFUAc6a4UQm6Qz3kuKzjTp93jvkBYF3Yv3UxcVx2TfHupfOUQqHcuqj2=w240-h480-rw";
+const payeer_icon =
+  "https://e7.pngegg.com/pngimages/983/55/png-clipart-business-computer-software-google-play-business-blue-text-thumbnail.png";
 
 const select_credit_icon = (data) => {
   console.log("data", data);
@@ -25,6 +27,10 @@ const select_credit_icon = (data) => {
 
     case "PERFECT MONEY":
       return perfect_money_icon;
+      break;
+
+    case "PAYEER":
+      return payeer_icon;
       break;
 
     default:
@@ -51,6 +57,10 @@ const select_debit_icon = (data) => {
 
     case "PERFECT MONEY":
       return perfect_money_icon;
+      break;
+
+    case "PAYEER":
+      return payeer_icon;
       break;
 
     default:
@@ -208,7 +218,7 @@ const fetch_first_10_deposits = async () => {
     const response = await fetch(
       // "http://localhost:5000/last_10_withdrawals&deposit/last_10_deposits",
       //   "https://bristolenergy-org-backend.glitch.me/last_10_withdrawals&deposit/last_10_deposits",
-      "https://saxoenergy-backend.glitch.me/last_10_withdrawals&deposit/last_10_deposits",
+      "https://bristolenergy-org-backend.glitch.me/last_10_withdrawals&deposit/last_10_deposits",
     );
     const result = await response.json();
     console.log("result", result);
@@ -232,7 +242,7 @@ const fetch_first_10_withdrawals = async () => {
   try {
     const response = await fetch(
       // "https://bristolenergy-org-backend.glitch.me/last_10_withdrawals&deposit/last_10_withdrawals",
-      "https://saxoenergy-backend.glitch.me/last_10_withdrawals&deposit/last_10_withdrawals",
+      "https://bristolenergy-org-backend.glitch.me/last_10_withdrawals&deposit/last_10_withdrawals",
       // "http://localhost:5000/last_10_withdrawals&deposit/last_10_withdrawals",
     );
     const result = await response.json();

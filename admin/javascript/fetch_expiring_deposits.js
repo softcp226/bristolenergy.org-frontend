@@ -36,8 +36,10 @@ const create_element = (data) => {
   funds_btn_a.className = "sbmt btn-sm btn-info";
   account_btn_a.innerHTML = "account";
   funds_btn_a.innerHTML = "funds";
-  account_btn_a.href=`/admin/user_edit.html?${data.user._id}`;
-  funds_btn_a.href = `/admin/user-details.html?${data.user._id}`;
+  account_btn_a.href=`/admin/user_edit.html?${data.user?data.user._id : ""}`;
+  funds_btn_a.href = `/admin/user-details.html?${
+    data.user ? data.user._id : ""
+  }`;
 
   container_tr.className = `row${construct_row_number()}`;
   username_td.innerHTML = data.user.username;
