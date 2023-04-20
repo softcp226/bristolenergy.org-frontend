@@ -4,6 +4,8 @@ const setText = (user) => {
   // });
 };
 
+let user_result;
+
 const getCookie = (cname) => {
   let name = cname + "=";
   let decodedCookie = decodeURIComponent(document.cookie);
@@ -36,11 +38,14 @@ const getCookie = (cname) => {
       },
     );
     const result = await response.json();
-    console.log(result);
+    user_result=result.message
+    // console.log(result);
     if (result.error) {
       alert(result.errMessage);
     } else {
       setText(result.message);
+      if(document.querySelector("#wallet_balance"))document.querySelector("#wallet_balance").innerHTML =`Final Balance: $${ result.message.final_balance}`
+       
     }
   } catch (error) {
     alert(error.message);

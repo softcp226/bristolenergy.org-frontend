@@ -29,6 +29,7 @@ const addProblem = async (data) => {
   document.querySelector("#add_to_problem").innerHTML = "Proccessing...";
   try {
     const response = await fetch(
+      // "http://localhost:5000/api/admin/deposit_request/problem",
       "https://bristolenergy-org-backend.glitch.me/api/admin/deposit_request/problem",
       {
         method: "POST",
@@ -69,6 +70,7 @@ const handle_delete_deposit_request = async (btn, deposit_id) => {
   console.log(deposit_id);
   try {
     const response = await fetch(
+      // "http://localhost:5000/api/admin/deposit_request/delete",
       "https://bristolenergy-org-backend.glitch.me/api/admin/deposit_request/delete",
       {
         method: "DELETE",
@@ -103,9 +105,10 @@ document.querySelector("#delete_btn").onclick = () => {
 };
 
 const submit_deposit_approval = async (form) => {
-  document.querySelector("#delete_btn").innerHTML = "processing...";
+  document.querySelector("#add_fund").innerHTML = "processing...";
   try {
     const response = await fetch(
+      // "http://localhost:5000/api/admin/deposit/approve",
       "https://bristolenergy-org-backend.glitch.me/api/admin/deposit/approve",
       {
         method: "POST",
@@ -117,14 +120,14 @@ const submit_deposit_approval = async (form) => {
     console.log(result);
     if (result.error) {
       document.querySelector(".errMessage").innerHTML = result.errMessage;
-      document.querySelector("#delete_btn").innerHTML = "Try again";
+      document.querySelector("#add_fund").innerHTML = "Try again";
       return;
     }
-    document.querySelector("#delete_btn").innerHTML = "success";
+    document.querySelector("#add_fund").innerHTML = "success";
     window.location.href = "/admin/pending-deposit.html";
   } catch (err) {
     document.querySelector(".errMessage").innerHTML = err.message;
-    document.querySelector("#delete_btn").innerHTML = "Try again";
+    document.querySelector("#add_fund").innerHTML = "Try again";
     console.log(err);
   }
 };
@@ -162,6 +165,7 @@ const create_element = (data) => {
   let deposit_request = getDeposit_request();
   try {
     const response = await fetch(
+    // "http://localhost:5000/api/admin/deposit_request/single",
       "https://bristolenergy-org-backend.glitch.me/api/admin/deposit_request/single",
       {
         method: "POST",

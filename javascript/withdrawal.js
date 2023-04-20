@@ -69,8 +69,52 @@ document.querySelectorAll("input").forEach((input) => {
   };
 });
 
-document.querySelectorAll("select").forEach((select) => {
-  select.onchange = () => {
-    select.style.border = "2px solid #fff";
-  };
-});
+// document.querySelectorAll("select").forEach((select) => {
+//   select.onchange = () => {
+//     select.style.border = "2px solid #fff";
+//   };
+// });
+document.querySelector("#withdrawal-method").onchange = () => {
+  const withdrawal_method = document.querySelector("#withdrawal-method");
+  withdrawal_method.style.border = "2px solid #fff";
+  console.log(withdrawal_method.value);
+  switch (withdrawal_method.value) {
+    case "BITCOIN":
+      document.querySelector(
+        "#wallet_balance",
+      ).innerHTML = `Bitcoin Balance:$${user_result.bitcoin_balance}.0`;
+      break;
+
+    case "ETHEREUM":
+      document.querySelector(
+        "#wallet_balance",
+      ).innerHTML = `Ethereum Balance:$${user_result.ethereum_balance}.0`;
+      break;
+
+    case "USDT(TRC20)":
+      document.querySelector(
+        "#wallet_balance",
+      ).innerHTML = `USDT(TRC20) Balance:$${user_result.usdt_balance}.0`;
+      break;
+
+    case "PERFECT MONEY":
+      document.querySelector(
+        "#wallet_balance",
+      ).innerHTML = `PERFECT MONEY Balance:$${user_result.perfect_money_balance}.0`;
+      break;
+
+    case "PAYEER":
+      document.querySelector(
+        "#wallet_balance",
+      ).innerHTML = `PAYEER Balance:$${user_result.payer_balance}.0`;
+      break;
+
+    default:
+      document.querySelector(
+        "#wallet_balance",
+      ).innerHTML = `Final Balance:$${user_result.final_balance}.0`;
+      break;
+  }
+};
+
+// document.querySelector("#wallet_balance").innerHTML = user_result.final_balance;

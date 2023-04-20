@@ -12,7 +12,7 @@ padding: 20px;
 
 
 
-.input-container-group input,.input-container-group select
+.wallet-balance,.input-container-group input,.input-container-group select
  {
   /* background-color: #fff;
   padding: 15px;
@@ -83,7 +83,7 @@ flex-wrap: wrap;
 } */
 
 
-.input-container-group input,.input-container-group select
+.wallet-balance,.input-container-group input,.input-container-group select
  {
   background-color: #fff;
   padding: 15px;
