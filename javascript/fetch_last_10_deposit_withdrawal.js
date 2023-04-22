@@ -8,6 +8,7 @@ const perfect_money_icon =
   "https://play-lh.googleusercontent.com/A0-25O4FaUEAWFUAc6a4UQm6Qz3kuKzjTp93jvkBYF3Yv3UxcVx2TfHupfOUQqHcuqj2=w240-h480-rw";
 const payeer_icon =
   "https://e7.pngegg.com/pngimages/983/55/png-clipart-business-computer-software-google-play-business-blue-text-thumbnail.png";
+const bnb_icon = "https://cdn-icons-png.flaticon.com/512/7403/7403652.png";
 
 const select_credit_icon = (data) => {
   console.log("data", data);
@@ -31,6 +32,10 @@ const select_credit_icon = (data) => {
 
     case "PAYEER":
       return payeer_icon;
+      break;
+
+    case "BNB":
+      return bnb_icon;
       break;
 
     default:
@@ -61,6 +66,10 @@ const select_debit_icon = (data) => {
 
     case "PAYEER":
       return payeer_icon;
+      break;
+
+    case "BNB":
+      return bnb_icon;
       break;
 
     default:
