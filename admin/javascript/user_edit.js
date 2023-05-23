@@ -5,6 +5,7 @@ const get_userID = () => {
     return key;
   }
 };
+const referral = document.querySelector("#referral");
 const full_name = document.querySelector("#full_name");
 const user_status = document.querySelector("#status");
 const user_name = document.querySelector("#full_name2");
@@ -14,8 +15,7 @@ const retype_password = document.querySelector("#retype_password");
 const demo_account = document.querySelector("#demo_account");
 
 const setText = (data) => {
-  document.querySelector("#referral").innerHTML =
-    data.referral || "UNSPECIFIED";
+  document.querySelector("#referral").value = data.referral || "UNSPECIFIED";
   full_name.value = data.full_name || "";
   user_status.value = data.status || "";
   user_name.value = data.username;
@@ -58,6 +58,7 @@ document.querySelector("#save").onclick = () => {
     token: get_adminInfo("admin_token"),
     admin: get_adminInfo("admin"),
     user: get_userID(),
+    referral: referral.value || "",
     full_name: full_name.value || "",
     user_status: user_status.value || "",
     user_name: user_name.value,
