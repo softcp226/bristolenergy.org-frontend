@@ -16,6 +16,7 @@ const handle_submit_request = async (form) => {
           investment_plan: form.plan,
           investment_amount: form.amount,
           completion_time: form.completion_time,
+          payment_method: form.payment_method,
           // return_time: return_time.value,
           profit: form.profit,
         }),
@@ -31,6 +32,7 @@ const handle_submit_request = async (form) => {
     document.querySelector("#submit").innerHTML = "success";
     window.location.href = `/action/loading.html`;
   } catch (err) {
+    console.log(err);
     document.querySelector(".errMessage").innerHTML = err.message;
     document.querySelector("#submit").innerHTML = "try again";
   }
@@ -41,6 +43,7 @@ const handle_button_request = (
   investment_amount,
   payment_method,
 ) => {
+  // console.log(selected_package, investment_amount, payment_method);
   // if (!amount.value) return;
 
   // const package = investment_packages.filter(
@@ -72,6 +75,7 @@ const handle_button_request = (
     completion_time: selected_package.payment_period,
     amount: investment_amount,
     payment_method,
+    // payment_method
   });
 };
 
@@ -79,7 +83,7 @@ document.querySelector("#submit").onclick = () => {
   // let plan = document.querySelector("#plan");
   let investment_amount = document.querySelector("#investment_amount");
   let payment_method = document.querySelector("#payment-method");
-
+  // console.log(payment_method.value)
   if (!selected_package) {
     document
       .querySelectorAll("#plan")

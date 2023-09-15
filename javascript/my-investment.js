@@ -109,8 +109,8 @@ const shape_result = (investments) => {
   let user = getCookie("user");
   try {
     const response = await fetch(
-        // "https://bristolenergy-org-backend.glitch.me/api/user/investments/fetch",
-      "http://localhost:5000/api/user/investments/fetch",
+        "https://bristolenergy-org-backend.glitch.me/api/user/investments/fetch",
+      // "http://localhost:5000/api/user/investments/fetch",
 
       {
         method: "POST",

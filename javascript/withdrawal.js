@@ -19,8 +19,8 @@ const handle_withdrawal = async (form) => {
   try {
     document.querySelector("#submit").innerHTML = "proccessing...";
     const response = await fetch(
-      // "https://bristolenergy-org-backend.glitch.me/api/user/withdraw",
-      "http://localhost:5000/api/user/withdraw",
+      "https://bristolenergy-org-backend.glitch.me/api/user/withdraw",
+      // "http://localhost:5000/api/user/withdraw",
 
       {
         method: "POST",
@@ -75,10 +75,10 @@ document.querySelectorAll("input").forEach((input) => {
 //   };
 // });
 document.querySelector("#withdrawal-method").onchange = () => {
-  console.log(user_result);
+  // console.log(user_result);
   const withdrawal_method = document.querySelector("#withdrawal-method");
   withdrawal_method.style.border = "2px solid #fff";
-  console.log(withdrawal_method.value);
+  // console.log(withdrawal_method.value);
   switch (withdrawal_method.value) {
     case "BITCOIN":
       document.querySelector(
