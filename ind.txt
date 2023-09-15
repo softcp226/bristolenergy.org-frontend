@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <title>Invesco Global </title>
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link type="image/x-icon" href="images/favicon.png" rel="icon">
+
+    <!-- CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://themes.templatescoder.com/crypton/html/demo/1-3/05-NFT-Purple-Theme/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://themes.templatescoder.com/crypton/html/demo/1-3/05-NFT-Purple-Theme/css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://themes.templatescoder.com/crypton/html/demo/1-3/05-NFT-Purple-Theme/css/animate.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://themes.templatescoder.com/crypton/html/demo/1-3/05-NFT-Purple-Theme/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/modify.css">
+    <!-- https://themes.templatescoder.com/crypton/html/demo/1-3/05-NFT-Purple-Theme/css/style.css -->
+</head>
+<body>
+
+    <!-- Preloader Start -->
+    <!-- <div id="preloader" class="preloader">
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+        <div class="spinner-box">
+            <div class="spinner"></div>
+        </div>
+        <img src="https://themes.templatescoder.com/crypton/html/demo/1-3/05-NFT-Purple-Theme/images/preloader.png"
+            alt="preloader" class="pre-icon">
+    </div> -->
+    <!-- Preloader End -->
+
+
+    <!-- Header Start -->
+    <header class="header header-home">
+        <div class="container">
+            <div class="row flex-align">
+                <div class="col-xl-3 col-lg-3 col-md-3">
+                    <div class="logo">
+                        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                    </div>
+                </div>
+                <div class="col-xl-9 col-lg-9 col-md-9">
+                    <div class="menu-toggle">
+                        <span></span>
+                    </div>
+                    <div class="menu-search">
+                        <a href="javascript:void(0)" class="search">
+                            <img src="assets/images/search.png" alt="search" style="width: 30px;">
+                        </a>
+                    </div>
+                    <div class="main-menu">
+                        <div class="nav-menu">
+                            <ul>
+                                <li>
+                                    <span class="opener"></span>
+                                    <a href="javascript:void(0)" class="active">Home</a>
+                                    <!-- <ul class="dropdown-content">
+                                        <li><a href="index.html" class="active">Home One</a></li>
+                                        <li><a href="index-2.html">Home Two</a></li>
+                                    </ul> -->
+                                </li>
+                                <li>
+                                    <span class="opener"></span>
+                                    <a href="#investment_plans">Investment Plans</a>
+                                    <!-- <ul class="dropdown-content">
+                                        <li><a href="explore-artwork.html">Explore Artwork</a></li>
+                                        <li><a href="explore-creator.html">Explore Creator</a></li>
+                                        <li><a href="single-artwork.html">Single Artwork</a></li>
+                                        <li><a href="single-creator.html">Single Creator</a></li>
+                                    </ul> -->
+                                </li>
+                                <li>
+                                    <span class="opener"></span>
+                                    <a href="#contct">Contact</a>
+                                    <!-- <ul class="dropdown-content">
+                                        <li><a href="about-us.html">About Us</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="faq.html">Faq</a></li>
+                                        <li><a href="404.html">404</a></li>
+                                    </ul> -->
+                                </li>
+                                <!-- <li>
+                                    <span class="opener"></span>
+                                    <a href="javascript:void(0)">Blog</a>
+                                    <ul class="dropdown-content">
+                                        <li><a href="blog-list.html">Blog List</a></li>
+                                        <li><a href="blog-detail.html">blog Detail</a></li>
+                                    </ul>
+                                </li> -->
+                                <li>
+                                    <a href="javascript:void(0)" class="search">
+                                        <img src="assets/images/search.png" alt="search" style="width: 40px;">
+                                    </a>
+                                </li>
+
+                                <li><a href="login.html">Login</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="connect-wallet">
+                            <a href="register.html" class="btn-small">Register</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="search-form-modal">
+            <div class="container">
+                <div class="search-form">
+                    <form class="form-group">
+                        <input type="text" name="search" id="search" class="form-control" placeholder="Type Here"
+                            required>
+                        <button type="button" class="btn-close"></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+
+    <!-- Start Of Main Div -->
+    <div class="main">
+
+        <!-- Home Banner Section -->
+        <section class="home-banner">
+            <div class="container">
+                <div class="row flex-align">
+                    <div class="col-md-12 col-lg-6 col-xl-6 wow fadeInLeft">
+                        <div class="home-banner-content">
+                            <div class="home-banner-title">
+                                <h1>Secure and easy <span class="color-blue">Way</span> to invest in crypto</h1>
+                                <!-- <h1>Discover, <span class="color-blue">Collect</span> & Sell Rare Digital Artwork</h1> -->
+                                <!-- <p class="banner-des">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                    accusantium doloremque laudantium, totam rem</p> -->
+                                <p class="banner-des">Invesco Global is intended for people willing to achieve wealth
+                                    and financial freedom
+                                    but unable to do so because they're not financial experts.</p>
+                            </div>
+
+                            <div class="banner-btn">
+                                <a href="register.html" class="btn-large">Register</a>
+                                <a href="login.html" class="btn-two">User Login</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-lg-6 col-xl-6 wow fadeInRight">
+                        <div class="home-banner-slider owl-carousel">
+                            <div class="artwork-box relative">
+                                <div class="art-img">
+                                    <a href="single-artwork.html"><img
+                                            src="https://themes.templatescoder.com/crypton/html/demo/1-3/05-NFT-Purple-Theme/images/home-img-1.jpg"
+                                            alt="home-img"></a>
+                                </div>
+                                <div class="create-inr">
+                                    <a href="single-creator.html" class="create-img">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5ZLTz1ZpwcSb5ihg24R41sU2pOtVKJsoKnQ&usqp=CAU"
+                                            alt="home-creator">
+                                    </a>
+                                    <div class="create-content">
+                                        <p>Easily Deposit funds</p>
+                                        <!-- <span>Created By <a href="single-creator.html">John</a></span> -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="artwork-box relative">
+                                <div class="art-img">
+                                    <a href="single-artwork.html"><img
+                                            src="https://themes.templatescoder.com/crypton/html/demo/1-3/05-NFT-Purple-Theme/images/home-img-2.jpg"
+                                            alt="home-img"></a>
+                                </div>
+                                <div class="create-inr">
+                                    <a href="single-creator.html" class="create-img">
+                                        <img src="https://i.pinimg.com/originals/8d/56/49/8d56497be4b36ce638a18fbfe357fd4a.png"
+                                            alt="home-creator">
+                                    </a>
+                                    <div class="create-content">
+                                        <p>Create an investment</p>
+                                        <!-- <span>Created By <a href="single-creator.html">Smith</a></span> -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="artwork-box relative">
+                                <div class="art-img">
+                                    <a href="single-artwork.html"><img
+                                            src="https://themes.templatescoder.com/crypton/html/demo/1-3/05-NFT-Purple-Theme/images/home-img-3.jpg"
+                                            alt="home-img"></a>
+                                </div>
+                                <div class="create-inr">
+                                    <a href="single-creator.html" class="create-img">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzSxu9e6YSQXLaF1aYETdtqBQryvMg1y1TRQ&usqp=CAU"
+                                            alt="home-creator">
+                                    </a>
+                                    <div class="create-content">
+                                        <p>Withdraw your profit</p>
+                                        <!-- <span>Created By <a href="single-creator.html">David</a></span> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- about section secondary -->
+        <section class="abount-section dark-color pt-100 pb-70 relative">
+
+            <div class="container">
+                <div class="row flex-bottom pb-50">
+
+                    <!-- col-sm-8 col-md-8 wow fadeInLeft -->
+                    <h2 class="about-head">About Invesco Global</h2>
+
+                    <div class="about-row-flex">
+
+                        <div class="about-row-flex-img">
+                            <img src="https://fleekinvest.com/assets/images/about-left-image.png" alt="">
+                        </div>
+
+                        <div class="about-row-txt">
+                            <h3 style="color:#000">Risk Assesment, <span class="color-blue">Management</span> &amp;
+                                <span> </span>
+                                Undertaking
+                                </h2>
+                                <br>
+                                <p>We focus on the absolute risk of losing money, not the relative risk of
+                                    underperforming
+                                    the
+                                    stock market.
+                                    Consider a
+                                    year when the market falls by 25%. A fund manager focused on relative returns could
+                                    lose
+                                    20%
+                                    of their
+                                    investors’ money
+                                    and still claim to have done well by ‘outperforming’ the index.</p>
+
+                                <div class="sensitive-"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Home Banner Section End -->
+
+
+        <!-- Live Auction Start  primary -->
+        <section class="live-auction tetiary-color ptb-100 relative">
+            <div class="container">
+                <div class="row flex-bottom pb-50">
+                    <div class="col-sm-8 col-md-8 wow fadeInLeft">
+                        <div class="heading-part">
+                            <span class="sub-title">Featured</span>
+                            <h2 style="color:#000">PRICING LIST</h2>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-md-4 wow fadeInRight">
+                        <div class="view-all text-right">
+                            <!-- <a href="explore-artwork.html" class="view-btn">View All<img src="images/right-arrow.png"
+                                    alt="right"></a> auction-slider owl-carousel owl-loaded owl-drag -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="auction-slider owl-carousel" id="pricing_list">
+
+
+                            <!-- <div class="live-auction-box wow fadeInUp">
+                                <div style="padding: 20px;">
+                                    <h1>Basic Plan</h1>
+                                    <ul>
+                                        <li>Min: $50</li>
+                                        <li>Max: $499</li>
+                                        <li>8% 24 Hours Return</li>
+                                        <li>PRINCIPAL WITHDRAWAL</li>
+                                        <li>INSTANT WITHDRAWAL</li><a href="register.html" class="btn btn-default">Get
+                                            Started</a>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                            <div class="live-auction-box wow fadeInUp">
+                                <div style="padding: 20px;">
+                                    <h1>Basic Plan</h1>
+                                    <ul>
+                                        <li>Min: $50</li>
+                                        <li>Max: $499</li>
+                                        <li>8% 24 Hours Return</li>
+                                        <li>PRINCIPAL WITHDRAWAL</li>
+                                        <li>INSTANT WITHDRAWAL</li><a href="register.html" class="btn btn-default">Get
+                                            Started</a>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                            <div class="live-auction-box wow fadeInUp">
+                                <div style="padding: 20px;">
+                                    <h1>Basic Plan</h1>
+                                    <ul>
+                                        <li>Min: $50</li>
+                                        <li>Max: $499</li>
+                                        <li>8% 24 Hours Return</li>
+                                        <li>PRINCIPAL WITHDRAWAL</li>
+                                        <li>INSTANT WITHDRAWAL</li><a href="register.html" class="btn btn-default">Get
+                                            Started</a>
+                                    </ul>
+                                </div>
+                            
+                            </div> -->
+
+                        </div></div></div></div>
+
+                        <!-- <div class="live-auction-box wow fadeInUp">
+                                <div class="live-auction-img relative">
+                                    <div class="img-box">
+                                        <a href="single-artwork.html" class="img-tilt" data-tilt><img
+                                                src="images/auction-1.jpg" alt="auction-1"></a>
+                                    </div>
+                                    <div class="counter-box" data-countdown data-time="09:30:10">
+                                        <ul class="counter-loop">
+                                            <li>
+                                                <span class="hours">09</span>
+                                            </li>
+                                            <li>
+                                                <span class="minutes">30</span>
+                                            </li>
+                                            <li>
+                                                <span class="seconds">10</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="live-auction-content">
+                                    <div class="creator-box">
+                                        <div class="creator-img">
+                                            <a href="single-creator.html"><img src="images/creator-1.jpg"
+                                                    alt="creator"></a>
+                                            <a href="single-creator.html" class="creator-name">John Wick</a>
+                                        </div>
+                                        <div class="auction-likes">
+                                            <span class="heart-icon">
+                                                <svg class="heart-icon-box" width="18" height="17" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M9 15.08S1 10.6 1 5.16a4.16 4.16 0 018-1.603h0a4.16 4.16 0 018 1.603c0 5.44-8 9.92-8 9.92z"
+                                                        stroke="#999" stroke-width="2" stroke-linecap="round"
+                                                        stroke-linejoin="round"></path>
+                                                </svg>
+                                            </span>
+                                            <span class="like">78 Likes</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="auction-title">
+                                        <a href="single-artwork.html" class="box-title">The Cubic Universe Art</a>
+                                    </div>
+
+                                    <div class="biding-part">
+                                        <span class="current-bid">Current Bid</span>
+                                        <span class="price">0.68 ETH</span>
+                                    </div>
+                                </div>
+                            </div> -->
+
+
+
+
+
+
+                        <!-- <div class="live-auction-box wow fadeInUp delay-1">
+                                <div class="live-auction-img relative">
+                                    <div class="img-box">
+                                        <a href="single-artwork.html" class="img-tilt" data-tilt><img
+                                                src="images/auction-2.jpg" alt="auction-2"></a>
+                                    </div>
+                                    <div class="counter-box" data-countdown data-time="07:21:06">
+                                        <ul class="counter-loop">
+                                            <li>
+                                                <span class="hours">07</span>
+                                            </li>
+                                            <li>
+                                                <span class="minutes">21</span>
+                                            </li>
+                                            <li>
+                                                <span class="seconds">06</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div> -->
+
+                        <!-- <div class="live-auction-content">
+                                    <div class="creator-box">
+                                        <div class="creator-img">
+                                            <a href="single-creator.html"><img src="images/creator-2.jpg"
+                                                    alt="creator"></a>
+                                            <a href="single-creator.html" class="creator-name">Lary Jame</a>
+                                        </div>
+                                        <div class="auction-likes">
+                                            <span class="heart-icon">
+                                                <svg class="heart-icon-box" width="18" height="17" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M9 15.08S1 10.6 1 5.16a4.16 4.16 0 018-1.603h0a4.16 4.16 0 018 1.603c0 5.44-8 9.92-8 9.92z"
+                                                        stroke="#999" stroke-width="2" stroke-linecap="round"
+                                                        stroke-linejoin="round"></path>
+                                                </svg>
+                                            </span>
+                                            <span class="like">62 Likes</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="auction-title">
+                                        <a href="single-artwork.html" class="box-title">The Beautiful Fish Art</a>
+                                    </div>
+
+                                    <div class="biding-part">
+                                        <span class="current-bid">Current Bid</span>
+                                        <span class="price">0.57 ETH</span>
+                                    </div>
+                                </div> 
+                            </div>
+-->
+
+
+
+
+                        <!-- <div class="live-auction-box wow fadeInUp delay-2">
+                                <div class="live-auction-img relative">
+                                    <div class="img-box">
+                                        <a href="single-artwork.html" class="img-tilt" data-tilt><img
+                                                src="images/auction-3.jpg" alt="auction-3"></a>
+                                    </div>
+                                    <div class="counter-box" data-countdown data-time="04:20:08">
+                                        <ul class="counter-loop">
+                                            <li>
+                                                <span class="hours">04</span>
+                                            </li>
+                                            <li>
+                                                <span class="minutes">20</span>
+                                            </li>
+                                            <li>
+                                                <span class="seconds">08</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="live-auction-content">
+                                    <div class="creator-box">
+                                        <div class="creator-img">
+                                            <a href="single-creator.html"><img src="images/creator-3.jpg"
+                                                    alt="creator"></a>
+                                            <a href="single-creator.html" class="creator-name">John Doe</a>
+                                        </div>
+                                        <div class="auction-likes">
+                                            <span class="heart-icon">
+                                                <svg class="heart-icon-box" width="18" height="17" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M9 15.08S1 10.6 1 5.16a4.16 4.16 0 018-1.603h0a4.16 4.16 0 018 1.603c0 5.44-8 9.92-8 9.92z"
+                                                        stroke="#999" stroke-width="2" stroke-linecap="round"
+                                                        stroke-linejoin="round"></path>
+                                                </svg>
+                                            </span>
+                                            <span class="like">56 Likes</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="auction-title">
+                                        <a href="single-artwork.html" class="box-title">The Art Of Mountains</a>
+                                    </div>
+
+                                    <div class="biding-part">
+                                        <span class="current-bid">Current Bid</span>
+                                        <span class="price">0.92 ETH</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+
+
+                        <!-- <div class="bg-pattern">
+                <img src="images/auction-pattern-1.png" alt="auction" class="pattern">
+                <img src="images/auction-pattern-2.png" alt="auction" class="pattern pattern-2">
+            </div> -->
+
+        
+        </section>
+      
+        <!-- Live Auction End -->
+
+
+        <!-- Featured Creators Start -->
+        <section class="featured-creator secondary-color pt-100 pb-70 relative">
+            <div class="container">
+                <div class="row flex-bottom pb-50">
+                    <div class="col-sm-8 col-md-8 wow fadeInLeft">
+                        <div class="heading-part">
+                            <span class="sub-title">-</span>
+                            <h2>Latest Deposit</h2>
+                        </div>
+                    </div>
+
+                    <!-- <div class="col-sm-4 col-md-4 wow fadeInRight">
+                        <div class="view-all text-right">
+                          
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="row" id="latest_deposit">
+
+                </div>
+
+                
+                
+
+                <div class="row" id="latest_withdrawal"></div>
+
+                </div>
+
+                
+                <!-- <div class="row" id="latest_withdrawal">
+                    <div class="col-sm-8 col-md-8 wow fadeInLeft">
+                        <div class="heading-part">
+                            <span class="sub-title">-</span>
+                            <h2>Latest Withdrawals</h2>
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div class="row">
+
+                        <div class="col-sm-6 col-md-6 d-flex col-lg-4 col-xl-3">
+                            <div class="featured-creator-box wow fadeInUp delay-3">
+                                <div class="featured-creator-img">
+                                    <a href="single-creator.html"><img src="images/creator-8.jpg" alt="creator"></a>
+                                </div>
+                                <div class="featured-creator-name">
+                                    <a href="single-creator.html" class="box-title">Amilia Knor</a>
+                                    <span class="bid-price">4.706 ETH</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-md-6 d-flex col-lg-4 col-xl-3">
+                            <div class="featured-creator-box wow fadeInUp delay-3">
+                                <div class="featured-creator-img">
+                                    <a href="single-creator.html"><img src="images/creator-8.jpg" alt="creator"></a>
+                                </div>
+                                <div class="featured-creator-name">
+                                    <a href="single-creator.html" class="box-title">Amilia Knor</a>
+                                    <span class="bid-price">4.706 ETH</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+                </div> -->
+
+
+                <div class="col-12 wow fadeInUp">
+                    <div class="view-all-mob text-center pb-30">
+                        <!-- <a href="explore-creator.html" class="view-btn">View All<img src="images/right-arrow.png"
+                                    alt="right"></a> -->
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div class="bg-pattern">
+        <img src="images/featured-pattern.png" alt="featured-pattern" class="pattern">
+        <img src="images/featured-pattern.png" alt="featured-pattern" class="pattern pattern-2">
+    </div>
+    </section>
+    <!-- Featured Creators End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Popular Collection Start primary -->
+    <section class="popular-collection pt-100 pb-70 -color relative">
+        <div class="container">
+            <div class="row flex-bottom pb-50">
+                <div class="col-sm-8 col-md-8 wow fadeInLeft">
+                    <div class="heading-part">
+                        <span class="sub-title">More reasons to invest with us</span>
+                        <h2>Popular Collection</h2>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-md-4 wow fadeInRight">
+                    <div class="view-all text-right">
+                        <!-- <a href="explore-artwork.html" class="view-btn">View All<img src="images/right-arrow.png"
+                                    alt="right"></a> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="row img-explanation">
+                <!-- <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="category-box relative wow fadeInUp">
+                            <div class="category-img">
+                                <img src="data:image/jpeg;base64,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" alt="collection-1">
+                            </div>
+                            <h5 style="color:#000">TransactIon Speed</h5>
+                            <div class="category-content text-center">
+                                <a href="register.html" class="box-title">Transaction Speed </a>
+                            </div>
+                        </div>
+                    </div> -->
+
+                <!-- <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="category-box relative wow fadeInUp delay-1">
+                            <div class="category-img">
+                                <img src="data:image/jpeg;base64,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1NvrRu/BUNA6Oaf9gP8A1BW3bDUEeB9pHqqtFa+g0w1qQfqxu/FRaib++l/tHwKDhzq5o/2B+0n0TtRoCfA+8KrRX+H1ccrnQCKONr2OAIzdtWuLnuKoCCMjroVWpTDQHNdIM75iN+o/ZS15JIIhQVc1GNgu2hBHte07pHuyCqFCinWfTnCYnpp80Uvptf8AUFYTY1UO+nYcGgN8xn5rRkeXG7iSeJJJ815RQ+o9/wBZJ6kqWtDchCIiKisiIiIiIiIilQpRFCIiIiIiIiIiIiIiIiIiIs1LVyRm7HFp6tD2jQqxOLsf8/Cx59pnRf8Aj4hVCLVlZ7BANtsx5GyzdSY4yRffI+YurTm6J2kksfU9u0B4feo/RkO6qi7xb4qsRW7VhzYPDEPdR2Thk8+MFWf6Mi31cXcL/FT6PRt9aZ7+qNlvN33qrRO1YMmDxLj7p2btXH0HsrRuJRR5wwgHc6Ulx7hu8VXSyFzi46kkntJuV4RUfVc8QctgAB6K7WBuSIiLNWRERERERERERERERERSoUoihERERERERERERERERERERERERERERERERERERERERERERERERERERERERSoUoihERERERERERERERERERERERERERERERERERERERERERERERERERERERERSoUoiIiIiIiIiIiIiIiIihSiIihFKIiKERERSiIigoiIiIpREUFSiIiIiIiIiIiIiIiIiIi//2Q==" alt="collection-2">
+                            </div>
+                            <h5 style="color:#000">Minimal TransactIon Cost</h5>
+                            <div class="category-content text-center">
+                                <a href="register.html" class="box-title">Minimal Transaction Speed </a>
+                            </div>
+                        </div>
+                    </div> -->
+
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="category-box relative wow fadeInUp delay-2">
+                        <div class="category-img">
+                            <img src="https://d2gg9evh47fn9z.cloudfront.net/1600px_COLOURBOX50853851.jpg"
+                                alt="collection-3">
+                        </div>
+                        <h5 style="color:#000">Decentralization</h5>
+                        <div class="category-content text-center">
+                            <a href="register.html" class="box-title">Decentralization</a>
+                            <!-- <span class="total-item">18 items</span> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="category-box relative wow fadeInUp delay-3">
+                            <div class="category-img">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS65ix12sbuW1sKd9c1SOdWPKTA0wSwEP3NhlZe6Wk9VrfqDXCQvcrxbQAjNe20MnR3w_E&usqp=CAU" alt="collection-4">
+                            </div>
+                                                        <h5 style="color:#000">Safe and Secure</h5>
+
+                            <div class="category-content text-center">
+                                <a href="register.html" class="box-title">Virtual World</a>
+                            </div>
+                        </div>
+                    </div> -->
+
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="category-box relative wow fadeInUp">
+                        <div class="category-img">
+                            <img src="data:image/png;base64,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"
+                                alt="collection-5">
+                        </div>
+                        <h5 style="color:#000">Diversity</h5>
+
+                        <div class="category-content text-center">
+                            <a href="register.html" class="box-title">Diversity</a>
+                            <!-- <span class="total-item">16 items</span> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="category-box relative wow fadeInUp delay-1">
+                        <div class="category-img">
+                            <img src="data:image/png;base64,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"
+                                alt="collection-6">
+                        </div>
+                        <h5 style="color:#000">Transaparency</h5>
+
+                        <div class="category-content text-center">
+                            <a href="register.html" class="box-title">Transaparency</a>
+                            <!-- <span class="total-item">16 items</span> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="category-box relative wow fadeInUp delay-2">
+                        <div class="category-img">
+                            <img src="data:image/png;base64,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"
+                                alt="collection-7">
+                        </div>
+                        <h5 style="color:#000">Privacy</h5>
+                        <div class="category-content text-center">
+                            <a href="" class="box-title">Privacy</a>
+                            <!-- <span class="total-item">12 items</span> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="category-box relative wow fadeInUp delay-3">
+                        <div class="category-img">
+                            <img src="https://thumbs.dreamstime.com/b/cryptographic-key-black-icon-concept-vector-sign-isolated-background-cryptographic-key-illustration-symbol-cryptographic-key-133195276.jpg"
+                                alt="collection-8">
+                        </div>
+                        <h5 style="color:#000">Accessibility</h5>
+
+                        <div class="category-content text-center">
+                            <a href="register.html" class="box-title">Accessibility</a>
+                            <!-- <span class="total-item">14 items</span> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 wow fadeInUp">
+                    <div class="view-all-mob text-center pb-30">
+                        <!-- <a href="explore-artwork.html" class="view-btn">View All<img src="images/right-arrow.png"
+                                    alt="right"></a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-pattern">
+            <img src="images/collection-pattern-1.png" alt="collection-pattern" class="pattern">
+            <img src="images/collection-pattern-2.png" alt="collection-pattern" class="pattern pattern-2">
+        </div>
+    </section>
+    <!-- Popular Collection End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="our-blog primary-color ptb-100 relative">
+        <div class="container">
+            <div class="row flex-bottom pb-50">
+                <h2 style="color: #fff;">More Info about invesco global:</h2>
+                <br><br>
+
+                <div class="col-md-12 wow fadeInLeft location-video-container">
+
+                    <div class="col-md-7">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3538.4150755415462!2d153.01210711501116!3d-27.518560982870508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b91507633b0513f%3A0xe9f6d38c4e04e17f!2sYeronga%20St%2C%20Yeronga%20QLD%204104%2C%20Australia!5e0!3m2!1sen!2sng!4v1678027536692!5m2!1sen!2sng"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                        <div>
+                            <img src="assets/images/email.png" alt="" style="width:40px; height: 40px;">
+                            <a href="mailto:support@invescoglobal.ltd"
+                                style="color: #fff;">support@invescoglobal.ltd</a>
+                        </div>
+                        <hr>
+                        <div>
+                            <img src="assets/images/phone-call.png" alt="" style="width:40px; height: 40px;">
+                            <a href="mailto:support@invescoglobal.ltd"
+                                style="color: #fff;">support@invescoglobal.ltd</a>
+                        </div>
+
+                        <div>
+                        </div>
+                    </div>
+
+                    <div>
+
+                        <video src="assets/videos/VID-20220202-WA0016.mp4"></video>
+                        <!-- <iframe width="auto" height="auto" src="assets/videos/VID-20220202-WA0016.mp4" title="YouTube video player"
+                                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen=""></iframe> -->
+                    </div>
+
+                </div>
+            </div>
+    </section>
+
+
+    <!-- </div>
+                </div>
+            </div>
+        </section> -->
+
+
+    <!-- <iframe width="100%" height="auto" src="assets/videos/VID-20220202-WA0016.mp4" title="YouTube video player"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen=""></iframe> -->
+
+
+
+    <!-- How It Works Start -->
+    <section class="how-it-work pt-100 pb-70 secondary-color relative">
+        <div class="container">
+            <div class="row flex-bottom pb-50">
+                <div class="col-md-12 wow fadeInLeft">
+                    <div class="heading-part">
+                        <span class="sub-title">How We Work</span>
+                        <h2>Why Invest With Us</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6 col-md-6 d-flex">
+                    <div class="create-nft-box wow fadeInUp">
+                        <div class="icon-box">
+                            <img src="assets/images/insurance.png" alt="wallet">
+                        </div>
+
+                        <div class="content-box">
+                            <h3 class="box-title">Investment Insurance</h3>
+                            <p>We provide you with both financial growth and financial security because we work with
+                                top security engineers to secure your assets and also protect you against loses </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-6 d-flex">
+                    <div class="create-nft-box wow fadeInUp delay-1">
+                        <div class="icon-box">
+                            <img src="assets/images/wallet.png" alt="collection-icon">
+                        </div>
+
+                        <div class="content-box">
+                            <h3 class="box-title">Fast Deposits & Withdrawals</h3>
+                            <p>Making deposit and Withdrawals are straight forward and very easy. there is no
+                                minimum withdrawal which means you can withdraw as low as 0.1 with zero fee</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-6 d-flex">
+                    <div class="create-nft-box wow fadeInUp">
+                        <div class="icon-box">
+                            <img src="assets/images/security.png" alt="add-nft">
+                        </div>
+
+                        <div class="content-box">
+                            <h3 class="box-title">Secure & Regulated</h3>
+                            <p>Enjoy transparent investing with a secure and regulated company. The security of our
+                                customers are our number one priority and we work with top security engineers to
+                                make sure our customers are well protected</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-6 d-flex">
+                    <div class="create-nft-box wow fadeInUp delay-1">
+                        <div class="icon-box">
+                            <img src="assets/images/price.png" alt="sell">
+                        </div>
+
+                        <div class="content-box">
+                            <h3 class="box-title">Inflation Protection</h3>
+                            <p>Investing with us protect you against inflation.Bitcoin has a hard cap on the total
+                                number of coins that will ever be minted. So, as the growth of the money supply
+                                outpaces the growth in the Bitcoin supply, the price of Bitcoin ought to increase
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-pattern">
+            <img src="images/work-pattern.png" alt="work-pattern" class="pattern">
+            <img src="images/work-pattern.png" alt="work-pattern" class="pattern pattern-2">
+        </div>
+    </section>
+    <!-- How It Works End -->
+
+
+    <!-- Blog Section Start -->
+    <section class="our-blog primary-color ptb-100 relative">
+        <div class="container">
+            <div class="row flex-bottom pb-50">
+                <div class="col-sm-8 col-md-8 wow fadeInLeft">
+                    <div class="heading-part">
+                        <span class="sub-title">Invest with confidence on the world’s fastest
+                            and most secure crypto exchange</span>
+                        <h2>Invest Today, Stop wasting Time</h2>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-md-4 wow fadeInRight">
+                    <div class="view-all text-right">
+                        <!-- <a href="blog-list.html" class="view-btn">View All<img src="images/right-arrow.png"
+                                    alt="right"></a> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="blog-slider owl-carousel">
+                        <div class="blog-box wow fadeInUp">
+                            <div class="blog-img">
+                                <a href="blog-list.html"><img
+                                        src="https://www.itprotoday.com/sites/itprotoday.com/files/styles/article_featured_retina/public/GettyImages-1227400166-1100x733-c605274.jpeg?itok=MUg21nCB"
+                                        alt="blog-1"></a>
+                            </div>
+                            <div class="blog-content">
+                                <!-- <ul class="blog-date">
+                                        <li>Jan 17,2022</li>
+                                        <li>By Jones</li>
+                                    </ul> -->
+                                <a href="blog-list.html" class="box-title"> Advanced Data Encryption </a>
+                                <p>Your transaction data is secured via end-to-end encryption, ensuring that only
+                                    you
+                                    have access to your personal
+                                    information.
+                                </p>
+                                <!-- <a href="blog-list.html" class="read-more">Read More<img src="images/right.png"
+                                            alt="right"></a> -->
+                            </div>
+                        </div>
+
+                        <div class="blog-box wow fadeInUp delay-1">
+                            <div class="blog-img">
+                                <a href="blog-list.html"><img
+                                        src="https://www.techyv.com/sites/default/users/Images-Folder/Johnson-Controls.png"
+                                        alt="blog-2"></a>
+                            </div>
+                            <div class="blog-content">
+                                <!-- <ul class="blog-date">
+                                        <li>Jan 17,2022</li>
+                                        <li>By Jones</li>
+                                    </ul> -->
+                                <a href="blog-list.html" class="box-title">Personalised Access Control</a>
+                                <p>Personalized access control allows us to restrict devices and addresses that can
+                                    access your account, for greater ease
+                                    of mind to secure your account
+                                </p>
+                                <!-- <a href="blog-list.html" class="read-more">Read More<img src="images/right.png"
+                                            alt="right"></a> -->
+                            </div>
+                        </div>
+
+                        <div class="blog-box wow fadeInUp delay-2">
+                            <div class="blog-img">
+                                <a href="blog-list.html"><img
+                                        src="https://cdn-res.keymedia.com/cdn-cgi/image/w=480,h=320,fit=cover,f=auto/https://cdn-res.keymedia.com/cms/images/us/003/0308_638048062043969265.jpg"
+                                        alt="blog-3"></a>
+                            </div>
+                            <div class="blog-content">
+                                <!-- <ul class="blog-date">
+                                        <li>Jan 17,2022</li>
+                                        <li>By Jones</li>
+                                    </ul> -->
+                                <a href="blog-list.html" class="box-title"> Protected by insurance </a>
+                                <p> Invesco Global maintains crypto insurance to avoid losses on all your
+                                    investment.
+                                    Which means you can't loose your fund on our platform because they're protected
+                                </p>
+                                <!-- <a href="blog-list.html" class="read-more">Read More<img src="images/right.png"
+                                            alt="right"></a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 wow fadeInUp">
+                    <div class="view-all-mob text-center pt-30">
+                        <!-- <a href="blog-list.html" class="view-btn">View All<img src="images/right-arrow.png"
+                                    alt="right"></a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-pattern">
+            <img src="images/blog-pattern-1.png" alt="blog-pattern-1" class="pattern">
+            <img src="images/blog-pattern-2.png" alt="blog-pattern-2" class="pattern pattern-2">
+        </div>
+    </section>
+    <!-- Blog Section End -->
+
+
+    <!-- Footer Section Start -->
+    <footer class="footer relative">
+        <div class="container">
+            <div class="footer-content pt-100 pb-70">
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="footer-logo wow fadeInUp">
+                            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                            <ul class="footer-social">
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="footer-box wow fadeInUp delay-1">
+                            <h3 class="footer-title">Explore</h3>
+                            <ul class="footer-link">
+                                <li><a href="explore-artwork.html">Account Dashboard</a></li>
+                                <li><a href="single-artwork.html">Investment Plans</a></li>
+                                <!-- <li><a href="explore-creator.html">Explore Creator</a></li> -->
+                                <!-- <li><a href="single-creator.html">Single Creator</a></li> -->
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="footer-box wow fadeInUp delay-2">
+                            <h3 class="footer-title">Navigation</h3>
+                            <ul class="footer-link">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="#">Pages</a></li>
+
+                                <li><a href="register.html">Register</a></li>
+                                <li><a href="login.html">Login</a></li>
+                                <!-- <li><a href="blog-list.html">Blog</a></li> -->
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="footer-box wow fadeInUp delay-3">
+                            <h3 class="footer-title">Latest Updates</h3>
+                            <form class="form-group">
+                                <input class="form-control" type="text" placeholder="Your Email Address" required>
+                                <button class="btn-small" type="submit">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-12 col-lg-7">
+                        <div class="copyright-text">
+                            <p>© invesco global all Rights Reserved.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-lg-5">
+                        <div class="copyright-link">
+                            <ul>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+
+    </div>
+    <!-- End Of Main Div -->
+
+
+    <script src="javascript/index.js"></script>
+    <script src="javascript/getParam.js"></script>
+    <script src="javascript/fetch_last_10_deposit&withdrawal.js"></script>
+
+    <script
+        src="https://themes.templatescoder.com/crypton/html/demo/1-3/05-NFT-Purple-Theme/js/jquery-3.4.1.min.js"></script>
+    <script
+        src="https://themes.templatescoder.com/crypton/html/demo/1-3/05-NFT-Purple-Theme/js/bootstrap.min.js"></script>
+    <script
+        src="https://themes.templatescoder.com/crypton/html/demo/1-3/05-NFT-Purple-Theme/js/owl.carousel.min.js"></script>
+    <script
+        src="https://themes.templatescoder.com/crypton/html/demo/1-3/05-NFT-Purple-Theme/js/tilt.jquery.min.js"></script>
+    <script src="https://themes.templatescoder.com/crypton/html/demo/1-3/05-NFT-Purple-Theme/js/animation.js"></script>
+    <script src="https://themes.templatescoder.com/crypton/html/demo/1-3/05-NFT-Purple-Theme/js/script.js"></script>
+
+</body>
+</html>
+
+
+
+<!-- most popular insurance   images/search.png-->
